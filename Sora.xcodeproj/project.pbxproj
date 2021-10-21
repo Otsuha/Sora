@@ -14,29 +14,13 @@
 		CA6A060D2721A6040096353E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6A060C2721A6040096353E /* Assets.xcassets */; };
 		CA6A06102721A6040096353E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6A060E2721A6040096353E /* LaunchScreen.storyboard */; };
 		CA6A06132721A6040096353E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A06122721A6040096353E /* main.m */; };
-		CA6A061D2721A6040096353E /* SoraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A061C2721A6040096353E /* SoraTests.m */; };
-		CA6A06272721A6040096353E /* SoraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A06262721A6040096353E /* SoraUITests.m */; };
-		CA6A06292721A6040096353E /* SoraUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A06282721A6040096353E /* SoraUITestsLaunchTests.m */; };
+		CC1B1836B69C0B972F884371 /* Pods_Sora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D94872FA2BF9FA4BBC9EB21 /* Pods_Sora.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CA6A06192721A6040096353E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CA6A05F52721A6020096353E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CA6A05FC2721A6020096353E;
-			remoteInfo = Sora;
-		};
-		CA6A06232721A6040096353E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CA6A05F52721A6020096353E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CA6A05FC2721A6020096353E;
-			remoteInfo = Sora;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		4D94872FA2BF9FA4BBC9EB21 /* Pods_Sora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90944D495824A1B5C83F8D95 /* Pods-Sora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sora.release.xcconfig"; path = "Target Support Files/Pods-Sora/Pods-Sora.release.xcconfig"; sourceTree = "<group>"; };
+		C1BCF9A94B47FA1EA1D42327 /* Pods-Sora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sora.debug.xcconfig"; path = "Target Support Files/Pods-Sora/Pods-Sora.debug.xcconfig"; sourceTree = "<group>"; };
 		CA6A05FD2721A6020096353E /* Sora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6A06002721A6020096353E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA6A06012721A6020096353E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,11 +33,7 @@
 		CA6A060F2721A6040096353E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA6A06112721A6040096353E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6A06122721A6040096353E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CA6A06182721A6040096353E /* SoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA6A061C2721A6040096353E /* SoraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoraTests.m; sourceTree = "<group>"; };
-		CA6A06222721A6040096353E /* SoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA6A06262721A6040096353E /* SoraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoraUITests.m; sourceTree = "<group>"; };
-		CA6A06282721A6040096353E /* SoraUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoraUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CA6A06352721A6230096353E /* Sora.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sora.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,33 +41,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA6A06152721A6040096353E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA6A061F2721A6040096353E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CC1B1836B69C0B972F884371 /* Pods_Sora.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15EEB58791154B6F1302903E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D94872FA2BF9FA4BBC9EB21 /* Pods_Sora.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A3EDD8BD6BA357F107651FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1BCF9A94B47FA1EA1D42327 /* Pods-Sora.debug.xcconfig */,
+				90944D495824A1B5C83F8D95 /* Pods-Sora.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CA6A05F42721A6020096353E = {
 			isa = PBXGroup;
 			children = (
 				CA6A05FF2721A6020096353E /* Sora */,
-				CA6A061B2721A6040096353E /* SoraTests */,
-				CA6A06252721A6040096353E /* SoraUITests */,
 				CA6A05FE2721A6020096353E /* Products */,
+				1A3EDD8BD6BA357F107651FC /* Pods */,
+				15EEB58791154B6F1302903E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				CA6A05FD2721A6020096353E /* Sora.app */,
-				CA6A06182721A6040096353E /* SoraTests.xctest */,
-				CA6A06222721A6040096353E /* SoraUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,25 +98,9 @@
 				CA6A060E2721A6040096353E /* LaunchScreen.storyboard */,
 				CA6A06112721A6040096353E /* Info.plist */,
 				CA6A06122721A6040096353E /* main.m */,
+				CA6A06352721A6230096353E /* Sora.entitlements */,
 			);
 			path = Sora;
-			sourceTree = "<group>";
-		};
-		CA6A061B2721A6040096353E /* SoraTests */ = {
-			isa = PBXGroup;
-			children = (
-				CA6A061C2721A6040096353E /* SoraTests.m */,
-			);
-			path = SoraTests;
-			sourceTree = "<group>";
-		};
-		CA6A06252721A6040096353E /* SoraUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CA6A06262721A6040096353E /* SoraUITests.m */,
-				CA6A06282721A6040096353E /* SoraUITestsLaunchTests.m */,
-			);
-			path = SoraUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA6A062C2721A6040096353E /* Build configuration list for PBXNativeTarget "Sora" */;
 			buildPhases = (
+				EFA50C13F1B5435D4182757E /* [CP] Check Pods Manifest.lock */,
 				CA6A05F92721A6020096353E /* Sources */,
 				CA6A05FA2721A6020096353E /* Frameworks */,
 				CA6A05FB2721A6020096353E /* Resources */,
+				8EEC6A8B2D76BBF91B5D8E53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,42 +124,6 @@
 			productName = Sora;
 			productReference = CA6A05FD2721A6020096353E /* Sora.app */;
 			productType = "com.apple.product-type.application";
-		};
-		CA6A06172721A6040096353E /* SoraTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CA6A062F2721A6040096353E /* Build configuration list for PBXNativeTarget "SoraTests" */;
-			buildPhases = (
-				CA6A06142721A6040096353E /* Sources */,
-				CA6A06152721A6040096353E /* Frameworks */,
-				CA6A06162721A6040096353E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CA6A061A2721A6040096353E /* PBXTargetDependency */,
-			);
-			name = SoraTests;
-			productName = SoraTests;
-			productReference = CA6A06182721A6040096353E /* SoraTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CA6A06212721A6040096353E /* SoraUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CA6A06322721A6040096353E /* Build configuration list for PBXNativeTarget "SoraUITests" */;
-			buildPhases = (
-				CA6A061E2721A6040096353E /* Sources */,
-				CA6A061F2721A6040096353E /* Frameworks */,
-				CA6A06202721A6040096353E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CA6A06242721A6040096353E /* PBXTargetDependency */,
-			);
-			name = SoraUITests;
-			productName = SoraUITests;
-			productReference = CA6A06222721A6040096353E /* SoraUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -203,14 +136,6 @@
 				TargetAttributes = {
 					CA6A05FC2721A6020096353E = {
 						CreatedOnToolsVersion = 13.0;
-					};
-					CA6A06172721A6040096353E = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = CA6A05FC2721A6020096353E;
-					};
-					CA6A06212721A6040096353E = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = CA6A05FC2721A6020096353E;
 					};
 				};
 			};
@@ -228,8 +153,6 @@
 			projectRoot = "";
 			targets = (
 				CA6A05FC2721A6020096353E /* Sora */,
-				CA6A06172721A6040096353E /* SoraTests */,
-				CA6A06212721A6040096353E /* SoraUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,21 +168,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA6A06162721A6040096353E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA6A06202721A6040096353E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EEC6A8B2D76BBF91B5D8E53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sora/Pods-Sora-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sora/Pods-Sora-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sora/Pods-Sora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA50C13F1B5435D4182757E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CA6A05F92721A6020096353E /* Sources */ = {
@@ -273,37 +224,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA6A06142721A6040096353E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CA6A061D2721A6040096353E /* SoraTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA6A061E2721A6040096353E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CA6A06272721A6040096353E /* SoraUITests.m in Sources */,
-				CA6A06292721A6040096353E /* SoraUITestsLaunchTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CA6A061A2721A6040096353E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CA6A05FC2721A6020096353E /* Sora */;
-			targetProxy = CA6A06192721A6040096353E /* PBXContainerItemProxy */;
-		};
-		CA6A06242721A6040096353E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CA6A05FC2721A6020096353E /* Sora */;
-			targetProxy = CA6A06232721A6040096353E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CA6A06092721A6020096353E /* Main.storyboard */ = {
@@ -439,9 +360,11 @@
 		};
 		CA6A062D2721A6040096353E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BCF9A94B47FA1EA1D42327 /* Pods-Sora.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sora/Sora.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YK6G2Z3K97;
@@ -466,9 +389,11 @@
 		};
 		CA6A062E2721A6040096353E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90944D495824A1B5C83F8D95 /* Pods-Sora.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sora/Sora.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YK6G2Z3K97;
@@ -491,94 +416,6 @@
 			};
 			name = Release;
 		};
-		CA6A06302721A6040096353E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YK6G2Z3K97;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.com.grass.shizuku.SoraTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sora.app/Sora";
-			};
-			name = Debug;
-		};
-		CA6A06312721A6040096353E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YK6G2Z3K97;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.com.grass.shizuku.SoraTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sora.app/Sora";
-			};
-			name = Release;
-		};
-		CA6A06332721A6040096353E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YK6G2Z3K97;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.com.grass.shizuku.SoraUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Sora;
-			};
-			name = Debug;
-		};
-		CA6A06342721A6040096353E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YK6G2Z3K97;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.com.grass.shizuku.SoraUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Sora;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -596,24 +433,6 @@
 			buildConfigurations = (
 				CA6A062D2721A6040096353E /* Debug */,
 				CA6A062E2721A6040096353E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CA6A062F2721A6040096353E /* Build configuration list for PBXNativeTarget "SoraTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CA6A06302721A6040096353E /* Debug */,
-				CA6A06312721A6040096353E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CA6A06322721A6040096353E /* Build configuration list for PBXNativeTarget "SoraUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CA6A06332721A6040096353E /* Debug */,
-				CA6A06342721A6040096353E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

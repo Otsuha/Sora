@@ -6,12 +6,12 @@
 	<dict>
 		<key>iCloud.cn.com.grass.shizuku.Sora</key>
 		<dict>
-			<key>NSUbiquitousContainerSupportedFolderLevels</key>
-			<string>Any</string>
-			<key>NSUbiquitousContainerName</key>
-			<string>Sora</string>
 			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
 			<true/>
+			<key>NSUbiquitousContainerName</key>
+			<string>Sora</string>
+			<key>NSUbiquitousContainerSupportedFolderLevels</key>
+			<string>Any</string>
 		</dict>
 	</dict>
 	<key>UIApplicationSceneManifest</key>

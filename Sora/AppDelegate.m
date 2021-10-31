@@ -16,6 +16,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    __block NSURL *iCloudURL;
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        while (iCloudURL == nil) {
+            iCloudURL = [[NSFileManager defaultManager] URLForUbiquityContainerIdentifier:nil];
+        }
+        [[NSFileManager defaultManager] createDirectoryAtURL:[iCloudURL URLByAppendingPathComponent:@"Documents/wy1"] withIntermediateDirectories:NO attributes:nil error:nil];
+    });
+    
     return YES;
 }
 
